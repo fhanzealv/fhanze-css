@@ -714,35 +714,6 @@ blockquote:after{content:'\f10e';display:inline-block;font-family:FontAwesome;fo
 .img-anime .recent-boxes .box-image,.img-anime .recent-boxes .bf-thumb,.img-anime .custom-widget .rcthumb,.img-anime .PopularPosts img,.img-anime .home .block-image .thumb a,.img-anime .tc-thumb a,.img-anime .related-thumb a,.img-anime .PopularPosts .item-thumbnail a{opacity:0;transition:all 0s ease;-webkit-transition:all 0s ease;-moz-transition:all 0s ease;-o-transition:all 0s ease}
 .img-anime .img-effect,.img-anime .recent-boxes .box-image.img-effect,.img-anime .recent-boxes .bf-thumb.img-effect,.img-anime .custom-widget .rcthumb.img-effect,.img-anime .PopularPosts img.img-effect,.img-anime .block-image .thumb a.img-effect,.img-anime .tc-thumb a.img-effect,.img-anime .related-thumb a.img-effect,.img-anime .PopularPosts .item-thumbnail a.img-effect{opacity:1;transition:all .8s ease;-webkit-transition:all .8s ease;-moz-transition:all .8s ease;-o-transition:all .8s ease}
 
-
-.cards {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(4, 1fr);
-}
- 
-.card {
-  position: relative;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
-}
- 
-.card:hover {
-  cursor: pointer;
-}
- 
-.card img:not(:first-of-type) {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  opacity: 0;
-}
- 
-.card img.is-visible {
-  opacity: 1;
-}
-
 .fhanzeslider-wrapper { 
     width: auto; 
     float: left; 
