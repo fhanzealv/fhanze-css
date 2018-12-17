@@ -118,7 +118,7 @@ from{-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0);v
 to{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
 }
 
-li.parent:hover > ul{display: block !important}
+li.parent:hover > ul{display: block;background-color:#dfcb07 !important}
 #main-nav ul li.parent li{margin-right:0px !important;}
 .search input{color: #000 !important}
 .header-search:hover form{display: block !important;}
